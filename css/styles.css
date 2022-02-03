@@ -1,0 +1,143 @@
+body {
+    background-color: #d4dffd;
+    font-family: "Red Hat Display";
+    font-size: 16px;
+}
+
+.order {
+    width: calc(100% - 48px);
+    margin: 70px auto;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.order-hero-image {
+    max-width: 100%;
+    border-radius: 15px 15px 0 0;
+    margin: 0 auto;
+    display: block;
+}
+
+.order-inner {
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.order-heading {
+    text-align: center;
+    font-weight: 900;
+    font-size: 28px;
+    margin-top: 37px;
+    margin-bottom: 33px;
+}
+
+.order-description {
+    text-align: center;
+    color: #99a4aa;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.order-plan {
+    background-color: #f8f9fe;
+    padding: 16px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.order-plan-img,
+.order-annual,
+.order-change {
+    display: inline-block;
+}
+
+.order-annual p {
+    font-size: 14px;
+}
+
+.order-annual-heading {
+    font-weight: 900;
+    color: #222e48;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.order-change {
+    position: relative;
+    top: -15px;
+    color: #4031ae;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.order-annual-subheading {
+    color: #a3aabd;
+    margin: 0;
+}
+
+.order-annual {
+    margin-right: 24px;
+}
+
+.order-plan-img {
+    margin-right: 20px;
+}
+
+.btn-payment {
+    display: block;
+    background-color: #382ae1;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 900;
+    border-radius: 10px;
+    margin-bottom: 28px;
+}
+
+.btn-cancel {
+    text-align: center;
+    color: #6d738b;
+    font-weight: 900;
+    text-decoration: none;
+    margin-bottom: 38px;
+}
+
+@media screen and (min-width: 451px) {
+    body {
+        background-image: url("../images/pattern-background-desktop.svg");
+        background-position: top;
+        background-size: cover;
+    }
+
+    .order {
+        margin-top: 100px;
+        margin-bottom: 90px;
+        max-width: 450px;
+    }
+
+    .order-annual {
+        margin-right: 150px;
+    }
+
+    .order-description {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 29px;
+    }
+
+    .btn-payment:hover {
+        background-color: #766bf5;
+    }
+
+    .btn-cancel:hover {
+        color: #212a47;
+    }
+
+    .order-change:hover {
+        color: #968af6;
+        text-decoration: none;
+    }
+}
