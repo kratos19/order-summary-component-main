@@ -1,5 +1,5 @@
 body {
-    background-color: #d4dffd;
+    background-color: hsl(225, 100%, 94%);
     font-family: "Red Hat Display";
     font-size: 16px;
 }
@@ -109,7 +109,8 @@ body {
     body {
         background-image: url("../images/pattern-background-desktop.svg");
         background-position: top;
-        background-size: cover;
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
 
     .order {
